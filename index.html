@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Tech Syndicate" name="author" />
+    <meta
+      content="Because drugs deserve a second chance too."
+      name="keywords"
+    />
+    <title>Healr.</title>
+    <link href="img/healr.png" rel="shortcut icon" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <style>
+      @font-face {
+        font-family: ProductSans;
+        src: url(css/fonts/productsans.ttf);
+      }
+      body {
+        font-family: ProductSans;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <section id="main" class="row">
+      <section class="main-card">
+        <div class="title-layout">
+          <img src="img/bg.jpg" alt="alt" style="height: 40%; width: 100%;" />
+          <img src="img/healrlogowithtext.png" class="main-text" alt="healr" />
+          <h1 class="main-subtitle">
+            Because drugs deserve a second chance too.
+          </h1>
+        </div>
+
+        <div class="col-12" id="features-layout">
+          <div class="col-5">
+            <img src="img/bg.jpg" alt="mockup" />
+          </div>
+          <div class="col-6">
+            <h2 class="subheading">Features</h2>
+            <h4 class="subheading-4">Pickup</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+            <h4 class="subheading-4">Collab</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+            <h4 class="subheading-4">Remind</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+            <h4 class="subheading-4">Profile</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+          </div>
+        </div>
+
+        <div class="col-12" id="about-layout">
+          <div class="col-5">
+            <h2 class="subheading">Features</h2>
+            <h4 class="subheading-4">Pickup</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+            <h4 class="subheading-4">Collab</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+            <h4 class="subheading-4">Remind</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+            <h4 class="subheading-4">Profile</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+          </div>
+          <div class="col-5">
+            <img src="img/bg.jpg" alt="mockup" />
+          </div>
+        </div><br>
+
+        <div class="col-12" id="layout">
+          <div class="col-5">
+            <img src="img/bg.jpg" alt="mockup" />
+          </div>
+          <div class="col-6">
+            <h2 class="subheading">Features</h2>
+            <h4 class="subheading-4">Pickup</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+            <h4 class="subheading-4">Collab</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+            <h4 class="subheading-4">Remind</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+            <h4 class="subheading-4">Profile</h4>
+            <p class="text-para">Lorem ipsum dolor</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script>
+      function responsiveNav() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
