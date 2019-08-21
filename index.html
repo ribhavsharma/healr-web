@@ -26,18 +26,33 @@
     </style>
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
+        <div class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                  <div class="nav-title">
+                    <a href=""><img src="img/healrlogowithtextsmall.png" alt="healr"></a>
+                  </div>
+                </div>
+                <div class="nav-btn">
+                  <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </label>
+                </div>
+                
+                <div class="nav-links">
+                  <a href="">About</a>
+                  <a href="#features-layout">Features</a>
+                  <a href="">SOmething</a>
+                  <a href="">Something</a>
+                  <a href="">Something</a>
+                </div>
+              </div>
+
     <section id="main" class="row">
       <section class="main-card">
-        <div class="title-layout">
+        <div class="col-12" id="title-layout">
           <img src="img/bg.jpg" alt="alt" style="height: 40%; width: 100%;" />
           <img src="img/healrlogowithtext.png" class="main-text" alt="healr" />
           <h1 class="main-subtitle">
@@ -45,9 +60,22 @@
           </h1>
         </div>
 
+        <div class="col-12" id="about-layout">
+            <div class="col-2"></div>
+            <div class="col-8 about-text">
+                <h1 class="about-heading">Your Medicinal Waste,<br>Our Responsibility</h1>
+                <h2 class="about-heading-2">An app for managing your medicinal waste</h2>
+                <p>Healr. is a company that collects expired medicinal waste from different chemist shops, sorts them and sells them further to recyclers. Consequently, exchange of these medicinal waste assists in waste management and Healr. is able to give back a better and efficient output to the society.</p>
+                <p>Healr has the potential to reduce medicinal waste and lower the wealth that goes to trash.</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
         <div class="col-12" id="features-layout">
           <div class="col-5">
-            <img src="img/bg.jpg" alt="mockup" />
+              <div class="left-mockup">
+                    <img src="img/mockup1.png" alt="HomeActivity" />
+              </div>
           </div>
           <div class="col-6">
             <h2 class="subheading">Features</h2>
