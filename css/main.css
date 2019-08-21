@@ -44,7 +44,8 @@ body {
     width: 100%;
     background-color: #fff;
     position: relative;
-    margin-bottom: 20px;
+    box-shadow: 2px 1px 10px 3px #eee;
+    margin-bottom: 0;
   }
   
   .nav > .nav-header {
@@ -139,6 +140,7 @@ body {
   /* title section */
 
   .main-card {
+    margin-top: -5px;
     margin-left: 45px;
     margin-right: 45px;
     padding: 5px;
@@ -203,10 +205,12 @@ body {
   .about-heading{
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 0;
   }
 
   .about-heading-2{
-    font-size: 30px;
+    font-size: 28px;
+    margin-top: 15px;
     font-weight: 300;
   }
 
@@ -219,7 +223,52 @@ body {
     width: 500px;
   }
 
+  #about-layout img{
+    height: 500px;
+    width: 500px;
+  }
+
+  #attributes-layout img {
+    height: 500px;
+    width: 500px;
+  }
+
+  #layout img{
+    height: 500px;
+    width: 500px;
+  }
+
   .left-mockup{
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 0;
   }
+
+  .right-mockup{
+    margin-right: 10%;
+    margin-top: 0;
+  }
+
+  input{
+    border-radius: 4px;
+    color: #000;
+    width: 50%;
+    margin-bottom: 10px;
+    font-family: ProductSans;
+    font-size: 24px;
+    border: 1px solid #eee;
+    padding: 5px;
+  }
+
+  .subscribe-card i{
+    font-size: 24px;
+  }
+
+.subscribe-card .about-heading{
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.subscribe-card .about-heading-2{
+  font-size: 20px;
+  font-weight: 100;
+}
