@@ -329,3 +329,38 @@ body {
   padding: 10px;
 
 }
+
+#mobile-view{
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+  #body{
+    display: none;
+  }
+
+  body{
+    background-color: #fff;
+  }
+
+  #mobile-view{
+    display: block;
+  }
+
+  #mobile-view img{
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 120px;
+    margin-top: 25%;
+  }
+
+  #mobile-view h2{
+    font-weight: 100;
+    text-align: center;
+  }
+
+  #mobile-view .video {
+    left: 30%;
+  }
+}
